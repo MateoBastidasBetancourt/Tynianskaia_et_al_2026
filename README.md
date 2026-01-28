@@ -29,12 +29,12 @@ This project investigates cell composition, developmental trajectories, and func
 ├── bulk-RNAseq/
 │   ├── 01_EBs_d3_d6_human_marmoset.R
 │   ├── 02_marmoset_org_FACS_aRGs.R
-│   └── 03_orgs_brains_aRGs_Neu.R
+│   └── 03_orgs_GD90_aRGs_Neu.R
 │
 ├── metadata/
 │   ├── pheno_data_EBs.csv
 │   ├── pheno_data_aRG_orgs.csv
-│   └── pheno_data_marmoset_orgs&brains.csv
+│   └── pheno_data_marmoset_orgs&GD90.csv
 │
 ├── renv.lock
 └── README.md
