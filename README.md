@@ -8,7 +8,6 @@ This project investigates cell composition, developmental trajectories, and func
 
 ## Repository structure
 ```text
-RNAseq_analysis/
 ├── preprocessing/
 │   ├── sc-RNAseq/
 │   │   ├── 01_slurm_cellranger_mkref.sh
