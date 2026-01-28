@@ -1,0 +1,13 @@
+sample.id	species	stage	species_stage	line
+IDP_d3	human	d3	human_d3	IDP
+IDP_d6	human	d6	human_d6	IDP
+iLonza_d3	human	d3	human_d3	iLonza
+iLonza_d6	human	d6	human_d6	iLonza
+sc_d3	human	d3	human_d3	sc
+sc_d6	human	d6	human_d6	sc
+cj4_d3	marmoset	d3	marmoset_d3	cj4
+cj4_d6	marmoset	d6	marmoset_d6	cj4
+cj5_d3	marmoset	d3	marmoset_d3	cj5
+cj5_d6	marmoset	d6	marmoset_d6	cj5
+cj6_d3	marmoset	d3	marmoset_d3	cj6
+cj6_d6	marmoset	d6	marmoset_d6	cj6
