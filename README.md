@@ -43,15 +43,22 @@ This project investigates cell composition, developmental trajectories, and func
 ## Software
 
 R 4.5.1
+
 renv (for package version control)
+
 Seurat
+
 DESeq2
+
 ggplot2
+
 dplyr
+
 Package versions are recorded in renv.lock.
 
 ## Operating Systems Tested
 Linux (HPC cluster environment)
+
 Ubuntu (local testing)
 
 ## Hardware
@@ -91,13 +98,13 @@ A UMAP visualization showing clustered cells.
 ~5 minutes on a standard laptop (16 GB RAM).
 
 ## Instructions for Use
-scRNA-seq analysis
+- scRNA-seq analysis
 
 Run preprocessing scripts in preprocessing/sc-RNAseq/ (HPC required)
 
 Run Seurat scripts in sc-RNAseq/ in numerical order
 
-Bulk RNA-seq analysis
+- Bulk RNA-seq analysis
 
 Run preprocessing scripts in preprocessing/bulk-RNAseq/
 
