@@ -39,13 +39,67 @@ This project investigates cell composition, developmental trajectories, and func
 ├── renv.lock
 └── README.md
 ```
+## System Requirements
+## Software
 
-## Requirements
+R 4.5.1
+renv (for package version control)
+Seurat
+DESeq2
+ggplot2
+dplyr
+Package versions are recorded in renv.lock.
 
-- R version: 4.5.1  
-- Package versions are tracked using `renv`.
+## Operating Systems Tested
+Linux (HPC cluster environment)
+Ubuntu (local testing)
 
-To restore the environment:
-```r
+## Hardware
+Downstream R analyses can run on a standard workstation (≥16 GB RAM recommended).
+Preprocessing scripts require an HPC environment with a SLURM scheduler.
+
+## Installation Guide
+
+Clone the repository and restore the R environment:
+
 install.packages("renv")
 renv::restore()
+
+Estimated installation time: 5–10 minutes on a standard desktop computer with internet access.
+
+## Demo
+
+A small demo dataset is provided in /demo_data.
+
+To run the demo:
+
+source("demo/run_sc_demo.R")
+
+What the demo does: 
+Loads a small Seurat object
+Performs normalization and clustering
+Generates a UMAP plot
+Expected output
+A UMAP visualization showing clustered cells.
+
+## Expected runtime
+~5 minutes on a standard laptop (16 GB RAM).
+
+## Instructions for Use
+## scRNA-seq analysis
+Run preprocessing scripts in preprocessing/sc-RNAseq/ (HPC required)
+Run Seurat scripts in sc-RNAseq/ in numerical order
+## Bulk RNA-seq analysis
+Run preprocessing scripts in preprocessing/bulk-RNAseq/
+Run R scripts in bulk-RNAseq/ in numerical order
+
+## Reproducing Manuscript Results
+The following scripts correspond to key analyses presented in the manuscript:
+
+Integrated scRNA-seq analysis (d30 organoids)	01_seurat_pipeline_integrated_d30_orgs.R
+Cell composition analysis	04_cell_composition_analysis.R
+Functional profiling of bRGs	05_functional_profiling_bRGs_d30.R
+Multi-stage scRNA-seq integration	06_sc_data_integration_d30_d50_GD90.R
+Bulk RNA-seq analyses	Scripts in bulk-RNAseq/
+
+Running scripts in the indicated order on the full dataset (ENA accession PRJEB107058) reproduces the computational analyses presented in the study.
