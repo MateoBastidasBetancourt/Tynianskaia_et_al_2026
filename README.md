@@ -56,10 +56,7 @@ dplyr
 
 Package versions are recorded in renv.lock.
 
-## Operating Systems Tested
-Linux (HPC cluster environment)
-
-Ubuntu (local testing)
+Operating System: Linux (HPC cluster environment and local testing)
 
 ## Hardware
 Downstream R analyses can run on a standard workstation (≥16 GB RAM recommended).
