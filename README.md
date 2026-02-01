@@ -71,6 +71,7 @@ Preprocessing scripts require an HPC environment with a SLURM scheduler.
 Clone the repository and restore the R environment:
 
 install.packages("renv")
+
 renv::restore()
 
 Estimated installation time: 5–10 minutes on a standard desktop computer with internet access.
@@ -89,10 +90,6 @@ Loads a small Seurat object
 Performs normalization and clustering
 
 Generates a UMAP plot
-
-Expected output
-
-A UMAP visualization showing clustered cells.
 
 ## Expected runtime
 ~5 minutes on a standard laptop (16 GB RAM).
