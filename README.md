@@ -1,6 +1,6 @@
 # Transcriptomic analysis of cerebral organoids and tissue (scRNA-seq & bulk RNA-seq) done in Tynianskaia et al. (2026)
 
-This repository contains R scripts used to analyze single-cell and bulk RNA sequencing data from embryoid bodies, cerebral organoids, and tissue samples.
+This repository contains R scripts used to analyze single-cell and bulk RNA sequencing data from human and marmoset embryoid bodies, cerebral organoids, and marmoset telencephalic tissue.
 
 ## Overview
 
