@@ -66,11 +66,11 @@ Preprocessing scripts require an HPC environment with a SLURM scheduler.
 ## Installation Guide
 
 Clone the repository and restore the R environment:
-
+```text
 install.packages("renv")
-
-renv::restore()
-
+renv::activate()
+renv::restore() ##make sure to run it after cloning the repository and setting working directory where renv.lock file is
+```
 Estimated installation time: 5–10 minutes on a standard desktop computer with internet access.
 
 ## Demo
