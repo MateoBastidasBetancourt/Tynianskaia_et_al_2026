@@ -99,7 +99,7 @@ The following scripts correspond to key analyses presented in the manuscript:
 
 3. Functional profiling of bRGs:	05_functional_profiling_bRGs_d30.R
 
-4: Multi-stage scRNA-seq integration:	06_sc_data_integration_d30_d50_GD90.R
+4. Multi-stage scRNA-seq integration:	06_sc_data_integration_d30_d50_GD90.R
 
 5. Bulk RNA-seq analyses:	Scripts in bulk-RNAseq/
 
