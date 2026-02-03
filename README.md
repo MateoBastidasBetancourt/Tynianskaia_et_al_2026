@@ -69,7 +69,7 @@ Clone the repository and restore the R environment:
 ```text
 install.packages("renv")
 renv::activate()
-renv::restore() ##make sure to run it after cloning the repository and setting working directory where renv.lock file is
+renv::restore() ##make sure to run after setting working directory where renv.lock file is
 ```
 Estimated installation time: 5–10 minutes on a standard desktop computer with internet access.
 
