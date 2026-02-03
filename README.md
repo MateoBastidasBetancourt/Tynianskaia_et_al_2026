@@ -80,7 +80,7 @@ A small demo scRNAseq dataset is provided in Zenodo with the full processed data
 ## Instructions for Use
 - scRNA-seq analysis
 
-Run preprocessing scripts in preprocessing/sc-RNAseq/ (HPC required)
+Run preprocessing scripts in ./preprocessing/sc-RNAseq/ (HPC required)
 
 Run Seurat scripts in sc-RNAseq/ in numerical order
 
@@ -101,6 +101,6 @@ The following scripts correspond to key analyses presented in the manuscript:
 
 4. Multi-stage scRNA-seq integration:	06_sc_data_integration_d30_d50_GD90.R
 
-5. Bulk RNA-seq analyses:	Scripts in bulk-RNAseq/
+5. Bulk RNA-seq analyses:	Scripts in ./bulk-RNAseq/
 
 Running scripts in the indicated order on the full dataset (ENA accession PRJEB107058) reproduces the computational analyses presented in the study.
