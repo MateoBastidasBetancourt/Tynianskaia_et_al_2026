@@ -71,7 +71,7 @@ install.packages("renv")
 renv::activate()
 renv::restore() ##make sure to run after setting working directory where renv.lock file is
 ```
-Estimated installation time: 5–10 minutes on a standard desktop computer with internet access.
+Estimated installation time: 15 minutes on a standard desktop computer with internet access.
 
 ## Demo
 
