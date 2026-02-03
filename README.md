@@ -75,21 +75,7 @@ Estimated installation time: 5–10 minutes on a standard desktop computer with 
 
 ## Demo
 
-A small demo dataset is provided in /demo_data.
-
-To run the demo:
-
-source("demo/run_sc_demo.R")
-
-What the demo does: 
-Loads a small Seurat object
-
-Performs normalization and clustering
-
-Generates a UMAP plot
-
-## Expected runtime
-~5 minutes on a standard laptop (16 GB RAM).
+A small demo scRNAseq dataset is provided in Zenodo with the full processed data (demo_data_scRNAseq folder) as smaller Seurat objects.
 
 ## Instructions for Use
 - scRNA-seq analysis
@@ -107,14 +93,14 @@ Run R scripts in bulk-RNAseq/ in numerical order
 ## Reproducing Manuscript Results
 The following scripts correspond to key analyses presented in the manuscript:
 
-Integrated scRNA-seq analysis (d30 organoids)	01_seurat_pipeline_integrated_d30_orgs.R
+1. Integrated scRNA-seq analysis (d30 organoids):	01_seurat_pipeline_integrated_d30_orgs.R
 
-Cell composition analysis	04_cell_composition_analysis.R
+2. Cell composition analysis:	04_cell_composition_analysis.R
 
-Functional profiling of bRGs	05_functional_profiling_bRGs_d30.R
+3. Functional profiling of bRGs:	05_functional_profiling_bRGs_d30.R
 
-Multi-stage scRNA-seq integration	06_sc_data_integration_d30_d50_GD90.R
+4: Multi-stage scRNA-seq integration:	06_sc_data_integration_d30_d50_GD90.R
 
-Bulk RNA-seq analyses	Scripts in bulk-RNAseq/
+5. Bulk RNA-seq analyses:	Scripts in bulk-RNAseq/
 
 Running scripts in the indicated order on the full dataset (ENA accession PRJEB107058) reproduces the computational analyses presented in the study.
