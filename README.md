@@ -82,13 +82,13 @@ A small demo scRNAseq dataset is provided in Zenodo with the full processed data
 
 Run preprocessing scripts in ./preprocessing/sc-RNAseq/ (HPC required)
 
-Run Seurat scripts in sc-RNAseq/ in numerical order
+Run Seurat scripts in ./sc-RNAseq/ in numerical order
 
 - Bulk RNA-seq analysis
 
-Run preprocessing scripts in preprocessing/bulk-RNAseq/
+Run preprocessing scripts in ./preprocessing/bulk-RNAseq/
 
-Run R scripts in bulk-RNAseq/ in numerical order
+Run R scripts in ./bulk-RNAseq/ in numerical order
 
 ## Reproducing Manuscript Results
 The following scripts correspond to key analyses presented in the manuscript:
